@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 默认资源集 DLSideBar -->
+    <!-- 默认sidebar的字符颜色 -->
+    <color name="default_side_text_color">@color/sidebar_default_side_text_color</color>
+    <!-- 默认sidebar的字符选中时的颜色 -->
+    <color name="default_side_text_select_color">@color/sidebar_default_side_text_select_color</color>
+    <!-- 默认sidebar的字符大小 -->
+    <dimen name="default_side_text_size">@dimen/sidebar_default_side_text_size</dimen>
+    <!-- 默认sidebar的背景颜色 -->
+    <drawable name="default_side_background">@color/sidebar_default_side_background</drawable>
+    <!-- 默认选中弹窗字符颜色 -->
+    <color name="default_dialog_text_color">@color/sidebar_default_dialog_text_color</color>
+    <!-- 默认选中弹窗字符大小 -->
+    <dimen name="default_dialog_text_size">@dimen/sidebar_default_dialog_text_size</dimen>
+    <!-- 默认选中弹窗字符背景颜色 -->
+    <drawable name="default_dialog_text_background">@drawable/dialog_text_bg</drawable>
+    <!-- 默认选中弹窗字符背景宽度 -->
+    <dimen name="default_dialog_text_background_width">@dimen/sidebar_default_dialog_text_background_width</dimen>
+    <!-- 默认选中弹窗字符背景高度 -->
+    <dimen name="default_dialog_text_background_height">@dimen/sidebar_default_dialog_text_background_height</dimen>
+</resources>

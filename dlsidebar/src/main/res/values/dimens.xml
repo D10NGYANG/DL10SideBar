@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sidebar_default_side_text_size">14sp</dimen>
+    <dimen name="sidebar_default_dialog_text_size">20sp</dimen>
+    <dimen name="sidebar_default_dialog_text_bg_radius">4dp</dimen>
+    <dimen name="sidebar_default_dialog_text_background_width">100dp</dimen>
+    <dimen name="sidebar_default_dialog_text_background_height">100dp</dimen>
+</resources>

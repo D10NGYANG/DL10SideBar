@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">DL10SideBar</string>
+
+    <string name="area_select_json_name">area_phone_code.json</string>
 </resources>

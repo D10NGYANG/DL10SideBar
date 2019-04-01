@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sidebar_default_side_text_color">#ff646464</color>
+    <color name="sidebar_default_side_text_select_color">#ffffffff</color>
+    <color name="sidebar_default_side_background">#ffb2b2b2</color>
+    <color name="sidebar_default_dialog_text_color">#ffffffff</color>
+    <color name="sidebar_default_dialog_text_bg_color">#80000000</color>
+</resources>

@@ -1,18 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="跳到微信国家或地区代码" />
 
-</android.support.constraint.ConstraintLayout>
+    <com.dlong.rep.dlsidebar.DLSideBar
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        app:dialogTextBackground="@drawable/ic_launcher_background"
+        app:dialogTextBackgroundHeight="100dp"
+        app:dialogTextBackgroundWidth="100dp"
+        app:dialogTextColor="@color/colorAccent"
+        app:dialogTextSize="25sp"
+        app:sideBackground="@android:color/holo_orange_light"
+        app:sideTextColor="@color/colorPrimaryDark"
+        app:sideTextSelectColor="@color/colorAccent"
+        app:sideTextSize="16sp" />
+
+    <TextView
+        android:id="@+id/txt_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:text="TextView"
+        android:textSize="18sp" />
+
+</RelativeLayout>

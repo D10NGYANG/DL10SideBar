@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <corners android:radius="@dimen/sidebar_default_dialog_text_bg_radius"/>
+            <solid android:color="@color/sidebar_default_dialog_text_bg_color"/>
+        </shape>
+    </item>
+</layer-list>

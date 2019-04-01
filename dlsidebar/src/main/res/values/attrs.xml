@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DLSideBar">
+        <attr name="sideTextArray" format="reference" /> <!--sidebar的字符列表-->
+        <attr name="sideTextColor" format="color" /> <!--sidebar的字符颜色-->
+        <attr name="sideTextSelectColor" format="color" /> <!--sidebar的字符选中时的颜色-->
+        <attr name="sideTextSize" format="dimension" /> <!--sidebar的字符大小-->
+        <attr name="sideBackground" format="reference|color" /> <!--sidebar的背景颜色-->
+        <attr name="dialogTextColor" format="color" /> <!--选中弹窗字符颜色-->
+        <attr name="dialogTextSize" format="dimension" /> <!--选中弹窗字符大小-->
+        <attr name="dialogTextBackground" format="reference|color" /> <!--选中弹窗字符背景颜色-->
+        <attr name="dialogTextBackgroundWidth" format="dimension" /> <!--选中弹窗字符背景宽度-->
+        <attr name="dialogTextBackgroundHeight" format="dimension" /> <!--选中弹窗字符背景高度-->
+    </declare-styleable>
+</resources>
